@@ -18,8 +18,8 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/colombo";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/IKZ1RdE9UC5CHI27MFsX0G";
-global.website=process.env.GURL || "https://chat.whatsapp.com/IKZ1RdE9UC5CHI27MFsX0G" ; 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaRcmzj8qJ014Td8KD0n";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaRcmzj8qJ014Td8KD0n" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : process.env.CAPTION || "©KUSHAN²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "©STACHA²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "DARK SHAN",
+  author : process.env.PACK_AUTHER|| "BIG BOT",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "DARK SHAN YT",
-  ownername:process.env.OWNER_NAME|| "KUSHAN",
+  botname : process.env.BOT_NAME  || "BIG BOT",
+  ownername:process.env.OWNER_NAME|| "STACHA",
 
 
   errorChat : process.env.ERROR_CHAT || "",
